@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arooba</title>
+<meta name="description" content="Arooba's portfolio, coming soon.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=IBM+Plex+Sans:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root { --paper:#F7F6F2; --ink:#1A1D23; --soft:#5A5F68; --signal:#24304A; --amber:#C98A2B; }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper:#15171B; --ink:#F1EFE9; --soft:#A9AEB8; --signal:#7C90BC; --amber:#E5A94A; }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 14px; padding: 24px; text-align: center;
+    background: var(--paper); color: var(--ink);
+    font-family: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+  }
+  img { width: 64px; height: 64px; }
+  h1 { margin: 6px 0 0; font-family: "Space Grotesk", "Arial Black", sans-serif; font-size: clamp(2rem, 8vw, 3rem); letter-spacing: -0.01em; }
+  p { margin: 0; color: var(--soft); }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--amber); margin-right: 8px; }
+</style>
+</head>
+<body>
+  <img src="favicon.svg" alt="Arooba monogram">
+  <h1>Arooba</h1>
+  <p><span class="dot"></span>Portfolio in progress.</p>
+</body>
+</html>
